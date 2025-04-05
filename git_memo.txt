@@ -8,6 +8,8 @@ git add "ファイル名"
 git commit 
 　addされた変更をまとめて記録
 
+git commit -m "コメント"
+
 git status
 　ステージ上にあるものをチェック
 
@@ -18,8 +20,12 @@ git restore --staged "ファイル名"
 git rm "ファイル名"
 　gitの管理下からファイルを削除して次のコミットでその削除を反映させる
 
+git remote add origin https://github.com/nezumitori990/push_test
+git push origin main
+　リポジトリの更新
 
 
 
+次はブランチとか
 
 
